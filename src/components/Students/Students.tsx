@@ -12,6 +12,8 @@ const Students = (): React.ReactElement => {
       {students.map((student: StudentInterface) => (
         <h2 key={student.id}>
           {student.first_name}
+          {" "}
+          {student.last_name}
         </h2>
       ))}
     </div>
